@@ -1,0 +1,23 @@
+Started GET "/" for 127.0.0.1 at 2020-08-25 12:08:28 +0530
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.6ms | Allocations: 407)
+Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2340)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-25 12:13:27 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.4ms | Allocations: 295)
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 1638)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-25 12:13:29 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.2ms | Allocations: 179)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
